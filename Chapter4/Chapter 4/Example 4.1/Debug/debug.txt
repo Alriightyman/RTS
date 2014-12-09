@@ -1,0 +1,2 @@
+Application initiated
+Application terminated

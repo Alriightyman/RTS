@@ -1,0 +1,12 @@
+Animation Frames:
+-------------------------
+
+Still:   0  - 1
+
+Idle:    2  - 20
+
+Run:     21 - 45
+
+Attack:  46 - 58
+
+Die:     59 - 68

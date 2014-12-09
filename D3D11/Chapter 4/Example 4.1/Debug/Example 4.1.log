@@ -1,0 +1,25 @@
+﻿Build started 12/9/2014 10:12:37 AM.
+     1>Project "C:\Users\Alriightyman\Documents\Programming an RTS Game with Direct3D Source\D3D11\Chapter 4\Example 4.1\Example 4.1.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         MakeSpriteFont "Arial" .\Font\Font.spritefont /FontSize:48 
+         :VCEnd
+         Importing Arial
+         Cropping glyph borders
+         Packing glyphs into sprite sheet
+         Premultiplying alpha
+         Writing .\Font\Font.spritefont (CompressedMono format)
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\SDKs\DirectXTK\Inc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt app.cpp HeightMap.cpp
+         HeightMap.cpp
+     1>c:\users\alriightyman\documents\programming an rts game with direct3d source\d3d11\chapter 4\example 4.1\heightmap.cpp(11): warning C4552: '>>' : operator has no effect; expected operator with side-effect
+     1>c:\users\alriightyman\documents\programming an rts game with direct3d source\d3d11\chapter 4\example 4.1\heightmap.cpp(62): error C2665: 'DirectX::CreateWICTextureFromFile' : none of the 2 overloads could convert all the argument types
+                 c:\sdks\directxtk\inc\wictextureloader.h(56): could be 'HRESULT DirectX::CreateWICTextureFromFile(ID3D11Device *,const wchar_t *,ID3D11Resource **,ID3D11ShaderResourceView **,size_t)'
+                 c:\sdks\directxtk\inc\wictextureloader.h(82): or       'HRESULT DirectX::CreateWICTextureFromFile(ID3D11Device *,ID3D11DeviceContext *,const wchar_t *,ID3D11Resource **,ID3D11ShaderResourceView **,size_t)'
+                 while trying to match the argument list '(ID3D11Device *, ID3D11DeviceContext *, const wchar_t *, nullptr, ID3D11ShaderResourceView *)'
+         app.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\Alriightyman\Documents\Programming an RTS Game with Direct3D Source\D3D11\Chapter 4\Example 4.1\Example 4.1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.58

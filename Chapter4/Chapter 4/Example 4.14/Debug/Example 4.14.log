@@ -1,0 +1,11 @@
+﻿  object.cpp
+  heightMap.cpp
+  terrain.cpp
+  app.cpp
+  mesh.cpp
+  shader.cpp
+  debug.cpp
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Alriightyman\Documents\Programming an RTS Game with Direct3D Source\Chapter4\Chapter 4\Example 4.14\Debug\Example 4.exe) does not match the Linker's OutputFile property value (C:\Users\Alriightyman\Documents\Programming an RTS Game with Direct3D Source\Chapter4\Chapter 4\Example 4.14\Debug\Example 4-14.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(Example 4) does not match the Linker's OutputFile property value (Example 4-14). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  Example 4.14.vcxproj -> C:\Users\Alriightyman\Documents\Programming an RTS Game with Direct3D Source\Chapter4\Chapter 4\Example 4.14\Debug\Example 4.exe

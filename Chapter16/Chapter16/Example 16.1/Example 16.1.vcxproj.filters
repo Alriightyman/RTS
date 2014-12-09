@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Player">
+      <UniqueIdentifier>{0f9b55a0-861d-4b18-a554-859d22392a4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit">
+      <UniqueIdentifier>{6abcb2b8-2015-41e9-ad4c-e878845fa69c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit\Skinnedmesh">
+      <UniqueIdentifier>{099c89a9-9ff0-4115-aee8-54dc5b2b478f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapObject">
+      <UniqueIdentifier>{ec3663c9-749b-4d69-880f-b8c10132c22e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{18c8f1ec-5e38-4358-a09f-c1ce0b958634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Debug">
+      <UniqueIdentifier>{46290013-8c43-4228-96f6-a4a13f049f1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Shader">
+      <UniqueIdentifier>{b7800bf1-33f5-451e-ae15-fa31d8a0c654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Camera">
+      <UniqueIdentifier>{87c788b1-4622-4247-8edb-756bf10dbbb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Mesh">
+      <UniqueIdentifier>{378e362f-87f8-4d6b-b5ca-6912444eafc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Mouse">
+      <UniqueIdentifier>{ab265c7e-93c6-4184-bb5f-abde124f2b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{c46d76da-71b8-44db-a665-4e4189a935be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Building">
+      <UniqueIdentifier>{74da8c5e-0146-4f3e-940a-88bbc42c140c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain">
+      <UniqueIdentifier>{82761f22-1150-4f2c-902a-aca490a05295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{bea2dc79-8585-46ab-a7c2-78e5da39b6c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{eec08833-e6b3-4f4f-9089-25a85f5c3977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\GroupAI">
+      <UniqueIdentifier>{68fc3658-4115-46e5-8eff-f32e2f67fdd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\MasterAI">
+      <UniqueIdentifier>{2420b98c-3830-438e-9220-e3fb73071b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Action">
+      <UniqueIdentifier>{34707df5-921e-42a5-adef-022ff2b9dd9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\StrategyMap">
+      <UniqueIdentifier>{022f677b-012a-4258-9170-913374edd6d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVI">
+      <UniqueIdentifier>{86b4b901-9fbf-47b7-b792-acdb631ea5a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{3f5440b9-2da0-48ee-a805-95b9ae381669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{726ea6e6-91b8-4222-93dd-2e1f09c89c54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="unit.cpp">
+      <Filter>Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="skinnedMesh.cpp">
+      <Filter>Unit\Skinnedmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="mapObject.cpp">
+      <Filter>MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>Common\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Common\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Common\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Common\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Common\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse.cpp">
+      <Filter>Common\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="building.cpp">
+      <Filter>Building</Filter>
+    </ClCompile>
+    <ClCompile Include="heightMap.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="terrain.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="particles.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupAI.cpp">
+      <Filter>AI\GroupAI</Filter>
+    </ClCompile>
+    <ClCompile Include="MasterAI.cpp">
+      <Filter>AI\MasterAI</Filter>
+    </ClCompile>
+    <ClCompile Include="action.cpp">
+      <Filter>AI\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyMap.cpp">
+      <Filter>AI\StrategyMap</Filter>
+    </ClCompile>
+    <ClCompile Include="avi.cpp">
+      <Filter>AVI</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="unit.h">
+      <Filter>Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="skinnedMesh.h">
+      <Filter>Unit\Skinnedmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="mapObject.h">
+      <Filter>MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="intpoint.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>Common\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Common\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Common\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Common\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Common\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.h">
+      <Filter>Common\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="building.h">
+      <Filter>Building</Filter>
+    </ClInclude>
+    <ClInclude Include="heightMap.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="terrain.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="particles.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupAI.h">
+      <Filter>AI\GroupAI</Filter>
+    </ClInclude>
+    <ClInclude Include="MasterAI.h">
+      <Filter>AI\MasterAI</Filter>
+    </ClInclude>
+    <ClInclude Include="action.h">
+      <Filter>AI\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyMap.h">
+      <Filter>AI\StrategyMap</Filter>
+    </ClInclude>
+    <ClInclude Include="avi.h">
+      <Filter>AVI</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Debug\Shaders\effect.ps">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Debug\Shaders\effect.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Debug\Shaders\fire.ps">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Debug\Shaders\fire.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Debug\Shaders\FogOfWar.ps">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Debug\Shaders\lighting.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Debug\Shaders\minimap.ps">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Debug\Shaders\objects.ps">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Debug\Shaders\objects.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Debug\Shaders\teamCol.ps">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Debug\Shaders\terrain.ps">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Debug\Shaders\terrain.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Debug\Shaders\visited.ps">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
